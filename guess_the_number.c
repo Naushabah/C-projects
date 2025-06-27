@@ -9,7 +9,7 @@ int main() {
     int guessed;
     do
     {
-        printf("guess the number\n");/* code */
+        printf("guess the number\n");
         scanf("%d",&guessed);
         if(guessed>random_number)
         {
